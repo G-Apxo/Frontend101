@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>  
+    <header>
+        <nav>
+            <ul style="display: flex; list-style: none; justify-content: center; gap: 16px;">
+                <li>
+                    <a href="#defition">
+                        Definition
+                    </a>
+                </li>
+                <li>
+                    <a href="#table">
+                        Table
+                    </a>
+                </li>
+                <li>
+                    <a href="#table2" target="_blank">
+                        Table 2
+                    </a>
+                </li>
+                <!-- <li>
+                    Contact
+                </li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <section id="definition">
+        <h1>Definition lists</h1>
+        <dl>
+            <dt>Front-end</dt>
+            <dd>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quasi voluptas autem saepe ipsam amet est, dolor voluptatum corporis, ea nisi aliquid alias? Corrupti accusantium neque ipsam quas voluptate sunt.
+            </dd>
+            <dt>Back end</dt>
+            <dd>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum natus explicabo assumenda nihil cupiditate iure quaerat. Quis recusandae fugit rerum ipsa veniam quam, quas, culpa officiis facilis nostrum quod nesciunt.
+            </dd>
+        </dl>
+    </section>
+    <section id="table">
+        <h1>Table</h1>
+        <table>
+            <caption><b>2023 Best mobile phones</b></caption>
+            <!-- Table Row -->
+            <thead>
+                <tr>
+                    <!-- Table Header -->
+                    <th>Model</th>
+                    <th>Company</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <!-- Table Definition/Description -->
+                    <td>Iphone</td>
+                    <td>Apple</td>
+                    <td>999$</td>
+                </tr>
+                <tr>
+                    <td>Galaxy</td>
+                    <td>Samsung</td>
+                    <td>899$</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="3">
+                        30 december data stats
+                    </th>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    <section id="table2">
+        <table>
+            <tr>
+                <td rowspan="2" style="background-color: green;">1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td colspan="2" style="background-color: red;">7</td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <a href="https://www.google.com/" target="_blank"> 
+            <img src="./../1/tree.jpeg" width="100%">
+        </a>
+    </section>
+    <form style="display: flex; gap: 50px;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172572.9674202346!2d18.965498604235293!3d47.481095384045105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741c334d1d4cfc9%3A0x400c4290c1e1160!2sBudapest!5e0!3m2!1sen!2shu!4v1703928522177!5m2!1sen!2shu" width="50%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <span>
+        <p>
+            <input placeholder="input your name" type="text">
+        </p>
+        <p>
+            <input placeholder="input your last name" type="email">
+        </p>
+        <p>
+            <textarea placeholder="contact us"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Contact Us" >
+        </p>
+    </span>
+    </form>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        td{
+            width: 60px;
+            height: 60px;
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</body>
+</html>
