@@ -1,0 +1,28 @@
+.psude_elements{
+    font-size: 20px;
+}
+.psude_elements::first-letter{
+    color: red;
+    font-size: 35px;
+}
+.psude_elements::first-line{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.wraning::before{
+    content: "Warning";
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(255, 77, 0);
+}
+.wraning::after{
+    content: "Be carefull";
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(255, 77, 0);
+}
+::selection{
+    color: white;
+    background-color: red;
+}
