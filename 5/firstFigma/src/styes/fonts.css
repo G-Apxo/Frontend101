@@ -10,12 +10,23 @@
     font-family: "neueThin";
     src: url("./fonts/tt_firs_neue/TT\ Firs\ Neue\ Trial\ Thin.ttf");
 }
+@font-face {
+    font-family: "neueBoldOutline";
+    src: url("./fonts/tt_firs_neue/TT\ Firs\ Neue\ Bold\ Outline\ Trial.otf");
+}
+@font-face {
+    font-family: "neueExtraBold";
+    src: url("./fonts/tt_firs_neue/TT\ Firs\ Neue\ Trial\ ExtraBold.ttf");
+}
 
 .font-24{
     font-size: 24px;
 }
 .font-18{
     font-size: 18px;
+}
+.font-48{
+    font-size: 48px;
 }
 .font-64{
     font-size: 64px;
@@ -40,4 +51,10 @@
 }
 .neueThin{
     font-family: "neueThin";
+}
+.neueBoldOutline{
+    font-family: "neueBoldOutline";
+}
+.neueExtraBold{
+    font-family: "neueExtraBold";
 }

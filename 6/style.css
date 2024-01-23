@@ -1,0 +1,43 @@
+
+body {
+  background-color: red;
+}
+
+.banner_txt{
+    font-size: 60px;
+}
+/* ეს ტელეფობეის ზომაა */
+@media (min-width: 576px) {
+  body {
+    background-color: blue;
+  }
+  .banner_txt{
+    font-size: 48px;
+  }
+}
+
+/* 768 პიქსელი აქ შეძლება იყოს როგორც ასევე ლენდსკეიპზე იპად მინი  დაყენებული ტელეფონები*/
+@media (min-width: 768px) {
+  body {
+    background-color: green;
+  }
+}
+/* 992 პიქსელიც რეალურად მორგებულია პლანშეტებზე  */
+@media (min-width: 992px) {
+  body {
+    background-color: yellow;
+  }
+}
+/* 1200 პიქსელი არის უკვე ქრომე ბუქები ასევე რესტორნებში შეკვეთების სისტემა და ასევე პლანშეტები  */
+@media (min-width: 1200px) {
+  body {
+    background-color: purple;
+  }
+}
+/* 1400ს ზემოთ არის დევასები რომლებიც არის ახალი 13 ინჩიანები და სხვა ყველა მონიტორი */
+@media (min-width: 1400px) {
+  body {
+    background-color: orange;
+  }
+}
+

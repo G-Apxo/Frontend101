@@ -8,5 +8,7 @@
 }
 body{
     cursor: url("./../img/mouseSecondary.svg"), auto;
-    
+    background-image: url("./../img/bg-lines.svg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
