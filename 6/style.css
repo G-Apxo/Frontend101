@@ -1,43 +1,68 @@
-
-body {
-  background-color: red;
+:root {
+  --primary: #9893A3;
+  --secondary: #ffffff;
 }
-
-.banner_txt{
-    font-size: 60px;
+h1{
+  font-family: "Playfair Display";
+  font-size: 86px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 88px;
+  letter-spacing: -1px;
 }
-/* ეს ტელეფობეის ზომაა */
-@media (min-width: 576px) {
-  body {
-    background-color: blue;
-  }
-  .banner_txt{
-    font-size: 48px;
-  }
+p{
+  color:  var(--primary);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
 }
-
-/* 768 პიქსელი აქ შეძლება იყოს როგორც ასევე ლენდსკეიპზე იპად მინი  დაყენებული ტელეფონები*/
-@media (min-width: 768px) {
-  body {
-    background-color: green;
-  }
+.btn_primary{
+  border-radius: 2px;
+  border: 1px solid #6C63FF;
+  background:  #6C63FF;
+  padding: 16px 30px;
+  color: white;
 }
-/* 992 პიქსელიც რეალურად მორგებულია პლანშეტებზე  */
-@media (min-width: 992px) {
-  body {
-    background-color: yellow;
-  }
+.btn_primary:hover{
+  background: transparent;
+  color: #6C63FF;
+  border: 1px solid #6C63FF;
 }
-/* 1200 პიქსელი არის უკვე ქრომე ბუქები ასევე რესტორნებში შეკვეთების სისტემა და ასევე პლანშეტები  */
-@media (min-width: 1200px) {
-  body {
-    background-color: purple;
-  }
+.btn_secondary{
+  border: 1px solid #6C63FF;
+  background: transparent;
+  padding: 16px 30px;
+  color: #6C63FF;
+  border-radius: 0;
 }
-/* 1400ს ზემოთ არის დევასები რომლებიც არის ახალი 13 ინჩიანები და სხვა ყველა მონიტორი */
-@media (min-width: 1400px) {
-  body {
-    background-color: orange;
-  }
+.btn_secondary:hover{
+  background: #6C63FF;
+  color: white;
 }
-
+.mt-130{
+  margin-top: 130px;
+}
+.mt-30{
+  margin-top: 30px;
+}
+.mt-220{
+  margin-top: 220px;
+}
+.font-60{
+  font-size: 60px;
+  font-family: "Playfair Display";
+}
+.btn_gradient{
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; 
+  letter-spacing: -1px;
+  background: rgb(197,194,240);
+  background: linear-gradient(0deg, rgba(197,194,240,1) 46%, rgba(255,255,255,1) 46%);
+  border: none;
+}

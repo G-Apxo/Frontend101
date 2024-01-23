@@ -3,12 +3,166 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>fusley</title>
 </head>
 <body>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolores delectus tenetur esse, doloremque, fugit, aliquid consequuntur amet expedita dolore cum officiis eos minus eius magni in eum commodi laudantium?
-    </p>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="./Logo.svg">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                     
+                    </ul>
+                    <form class="d-flex gap-3" role="search">
+                        <button class="btn btn_primary" type="submit">Get started</button>
+                      <button class="btn btn_secondary" type="submit">Log in</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <section class="mt-130">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5 col-xl-5 col-sm-12">
+                    <h1>
+                        Let’s get fusely together
+                    </h1>
+                    <p class="mt-30">
+                        Outcome-centered product that reduce churn, optimize pricing, and grow your subscription business end-to-end.
+                    </p>
+                    <button class="btn btn_primary mt-30" type="submit">Get started</button>
+                </div>
+                <div class="col-lg-6 col-xl-6 col-sm-12">
+                    <img src="./Hero image.png" >
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-130">
+        <div class="container">
+            <div class="row justify-content-center gap-3">
+                <div class="col-lg-2 col-xl-2 col-sm-3">
+                    <img src="./logo1.svg" >
+                </div>
+                <div class="col-lg-2 col-xl-2 col-sm-3">
+                    <img src="./logo2.svg" >
+                </div>
+                <div class="col-lg-2 col-xl-2 col-sm-3">
+                    <img src="./logo3.svg" >
+                </div>
+                <div class="col-lg-2 col-xl-2 col-sm-3">
+                    <img src="./logo4.svg" >
+                </div>
+                <div class="col-lg-2 col-xl-2 col-sm-3">
+                    <img src="./logo5.svg" >
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-220">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <img src="./Illustration.png">
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <h2 class="font-60">
+                        Detailed Examination
+                    </h2>
+                    <p class="mt-30">
+                        A daily dataset to keep you up to date on subscription market trends and what's happening in your vertical.
+                    </p>
+                    <button class="btn_gradient mt-30" type="submit">Learn More</button>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+    <section class="mt-220">
+        <div class="container">
+            <div class="mb-3 row text-center">
+                <div class="col-4 mt-5">
+                    <div class="card mb-4 box-shadow">
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">Free</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                            <li>10 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+                        </div>
+                        </div>
+                </div>
+                <div class="col-4">
+                    <div class="card mb-4 box-shadow">
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">Pro</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                            <li>20 users included</li>
+                            <li>10 GB of storage</li>
+                            <li>Priority email support</li>
+                            <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+                        </div>
+                        </div>
+                </div>
+                <div class="col-4 mt-5">
+                    <div class="card mb-4 box-shadow">
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">Enterprise</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                            <li>30 users included</li>
+                            <li>15 GB of storage</li>
+                            <li>Phone and email support</li>
+                            <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
